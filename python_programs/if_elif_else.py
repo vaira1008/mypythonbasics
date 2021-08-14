@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
-num = 45
+num = 28
 
 # only if
 if num > 25:
-    print("Hurray! {} is greater than 25".format(num))
+    str="Hurray! {} is greater than 25"
+    print(str.format(num))
 
 # if-else
 if num % 2 == 0:

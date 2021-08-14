@@ -1,6 +1,10 @@
 #!/usr/bin/python3
+import random
 
-number = 9
-for i in range(1, 5):
+
+number = random.randint(5,10)
+
+print(number)
+for i in range(1, 10):
     mul_table = number * i
     print("{} * {} = {}".format(number, i, mul_table))
